@@ -1,7 +1,6 @@
 {
   "name": "storeino",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +16,16 @@
     "joi": "^13.1.0",
     "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbbayMourad/JWT.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AbbayMourad/JWT/issues"
+  },
+  "homepage": "https://github.com/AbbayMourad/JWT#readme",
+  "description": ""
 }

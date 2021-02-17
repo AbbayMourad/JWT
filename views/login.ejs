@@ -6,11 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    #register {
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    button {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
   <nav>
-    <p><a href="/register">Register</a></p>
+    <p id="register"><a href="/register">Register</a></p>
   </nav>
 
 
@@ -43,7 +56,8 @@
         const data = await res.json();
         if (data.error) {
           error.textContent = data.error;
-        } else {
+        }
+        else {
           location.assign('/home');
         }
       }
